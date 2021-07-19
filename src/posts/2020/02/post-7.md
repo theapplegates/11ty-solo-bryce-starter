@@ -19,11 +19,11 @@ Your opening text goes here.
 
 <i class="fa-thin fa-network-wired fa-sm"></i>
 
-<i class="fa-thin fa-key fa-2x"></i>
+<i class="fa-thin fa-key fa-lg"></i>
 
-<i class="fa-thin fa-fingerprint fa-3x"></i>
+<i class="fa-thin fa-fingerprint fa-lg"></i>
 
-<i class="fa-thin fa-wifi fa-2x"></i>
+<i class="fa-thin fa-wifi fa-lg"></i>
 
 ## In-article heading --- it's an H2 because your title is the H1
 
