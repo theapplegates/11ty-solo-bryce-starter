@@ -4,7 +4,7 @@ var internalCSSPath = 'src/_includes/css/index.css'
 if (process.env.NODE_ENV === 'production') {
   if(fs.existsSync(internalCSSPath)) {
     internalCSS = fs.readFileSync(internalCSSPath)
-  }  
+  }
 }
 
 module.exports = function(eleventyConfig) {
@@ -18,14 +18,15 @@ module.exports = function(eleventyConfig) {
 
     return /*html*/ `
   <head>
+  <script src="https://kit.fontawesome.com/1fca07cddd.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="generator" content="Eleventy - 11ty - https://11ty.dev - v${require(`@11ty/eleventy/package.json`).version}" />        
+    <meta name="generator" content="Eleventy - 11ty - https://11ty.dev - v${require(`@11ty/eleventy/package.json`).version}" />
     ${
       (url == "/")
       ? /*html*/ `
-      <title>${siteTitle}</title> 
+      <title>${siteTitle}</title>
       <meta property="og:title" content="${siteTitle}" />
       `
       : /*html*/ `
@@ -53,7 +54,7 @@ module.exports = function(eleventyConfig) {
     <link rel="icon" type="image/png" href="/images/icons/Eleventy-favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/images/icons/Eleventy-favicon-96x96.png" sizes="96x96" />
 
-    ${ process.env.NODE_ENV === 'production' 
+    ${ process.env.NODE_ENV === 'production'
       ? /*html*/ `<link rel="preload" href="/css/${indexCSS}" as="style" />
       <link rel="stylesheet" href="/css/${indexCSS}" type="text/css" />`
       : /*html*/ `<link rel="stylesheet" href="/css/index.css" type="text/css"  />`
