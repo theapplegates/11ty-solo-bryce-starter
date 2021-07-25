@@ -1,9 +1,9 @@
 {
-  "title": "Your site title",
-  "url": "https://example.com",
-  "domain": "example.com",
-  "description": "Your site description.",
+  "title": "Living Life",
+  "url": "https://www.shrinkme.co",
+  "domain": "shrinkme.co",
+  "description": "Follow my daily hijinks here. There may also be a serious subject like cancer now and then. Fuck cancer.",
   "author": {
-    "name": "Your name"
+    "name": "Paul Applegate"
   }
 }
