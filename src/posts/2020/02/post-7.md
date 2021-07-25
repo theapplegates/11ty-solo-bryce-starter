@@ -12,6 +12,11 @@ featured_image: globe-life-park-rangers-1402096_6000x4000.jpg # Or whatever imag
 featured_image_alt: "Baseball game at Globe Life Park, Arlington, Texas" # Always include an ALT tag for accessibility --  Quotation marks allow colons, semicolons, etc.
 featured_image_caption: "Image: rwelborn; Pixabay" # Quotation marks allow colons, semicolons, etc.
 ---
+
+
+{% image "Audi-RS-2mb.jpg", "An Audi RS7" %}
+
+
 <!-- Simple styling to size an SVG -->
 <style>
   .icon {
